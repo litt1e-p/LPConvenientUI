@@ -55,11 +55,11 @@ public extension UIButton
     
     public convenience init(backgroundColor aBackgroundColor: UIColor?, titleColor aTitleColor: UIColor?, titleHighlightColor aTitleHighlightColor: UIColor?, title aTitle: String?, font aFont: UIFont?) {
         self.init(type: .custom)
-        self.backgroundColor = aBackgroundColor
+        self.backgroundColor             = aBackgroundColor
         self.setTitleColor(aTitleColor, for: .normal)
         self.setTitleColor(aTitleHighlightColor, for: .highlighted)
         self.setTitle(aTitle, for: .normal)
-        self.titleLabel?.font = aFont
+        self.titleLabel?.font            = aFont
         self.adjustsImageWhenHighlighted = false
     }
 }
