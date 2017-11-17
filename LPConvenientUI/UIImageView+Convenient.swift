@@ -38,6 +38,7 @@ public extension UIImageView
     }
     
     public convenience init(contentMode aContentMode: UIViewContentMode, userInteractionEnabled aUserInteractionEnabled: Bool, image aImage: UIImage?) {
+        
         self.init()
         self.contentMode              = aContentMode
         self.isUserInteractionEnabled = aUserInteractionEnabled
