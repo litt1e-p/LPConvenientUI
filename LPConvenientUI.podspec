@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "LPConvenientUI"
-  s.version          = "1.0.1"
+  s.version          = "1.0.2"
   s.summary          = "a convenient way to build UI"
   s.description      = <<-DESC
                        some convenient snippety classes functions of UIKit
@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/litt1e-p/LPConvenientUI"
   s.license          = { :type => 'MIT' }
   s.author           = { "litt1e-p" => "litt1e.p4ul@gmail.com" }
-  s.source           = { :git => "https://github.com/litt1e-p/LPConvenientUI.git", :tag => '1.0.1' }
+  s.source           = { :git => "https://github.com/litt1e-p/LPConvenientUI.git", :tag => '#{s.version}' }
 
   s.platform = :ios, '8.0'
   s.requires_arc = true
