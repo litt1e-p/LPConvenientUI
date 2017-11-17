@@ -1,6 +1,6 @@
 // The MIT License (MIT)
 //
-// Copyright (c) 2015-2016 litt1e-p ( https://github.com/litt1e-p )
+// Copyright (c) 2015-2017 litt1e-p ( https://github.com/litt1e-p )
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -34,7 +34,7 @@ public extension UIButton
     }
     
     public convenience init(image aImage: UIImage?, title aTitle: String?, font aFont: UIFont?) {
-        self.init(image: aImage, title: aTitle, font: aFont)
+        self.init(image: aImage, titleColor: .black,    title: aTitle, font: aFont)
     }
     
     public convenience init(image aImage: UIImage?, titleColor aTitleColor: UIColor?, title aTitle: String?, font aFont: UIFont?) {
