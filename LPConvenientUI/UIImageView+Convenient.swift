@@ -1,6 +1,6 @@
 // The MIT License (MIT)
 //
-// Copyright (c) 2015-2017 litt1e-p ( https://github.com/litt1e-p )
+// Copyright (c) 2015-2019 litt1e-p ( https://github.com/litt1e-p )
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -33,12 +33,11 @@ public extension UIImageView
         self.init(contentMode: .scaleAspectFit, userInteractionEnabled: aUserInteractionEnabled, image: aImage)
     }
     
-    public convenience init(contentMode aContentMode: UIViewContentMode, image aImage: UIImage?) {
+    public convenience init(contentMode aContentMode: UIView.ContentMode, image aImage: UIImage?) {
         self.init(contentMode: aContentMode, userInteractionEnabled: false, image: aImage)
     }
     
-    public convenience init(contentMode aContentMode: UIViewContentMode, userInteractionEnabled aUserInteractionEnabled: Bool, image aImage: UIImage?) {
-        
+    public convenience init(contentMode aContentMode: UIView.ContentMode, userInteractionEnabled aUserInteractionEnabled: Bool, image aImage: UIImage?) {
         self.init()
         self.contentMode              = aContentMode
         self.isUserInteractionEnabled = aUserInteractionEnabled
